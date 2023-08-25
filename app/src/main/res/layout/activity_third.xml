@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3A3E"
+    tools:context=".third">
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="257dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/anime" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="623dp"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="#00000000"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/tvseries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="#00000000"
+        android:text="TV series" />
+
+    <Button
+        android:id="@+id/movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="529dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="#00000000"
+        android:text="Movies" />
+
+    <Button
+        android:id="@+id/popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="#00000000"
+        android:text="Most Popular"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/airing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="#00000000"
+        android:text="Top Airing" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="539dp"
+        android:layout_marginBottom="205dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="396dp"
+        android:layout_marginBottom="139dp"
+        android:background="@drawable/edit_background"
+        android:backgroundTint="@color/white"
+        android:paddingLeft="5dp"
+        android:hint="  Search anime..."
+        android:textColor="#9F000000" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="659dp"
+        android:layout_marginBottom="100dp"
+        android:text="Top search:"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/kaisen"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="510dp"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Jujutsu kaisen 2nd season,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/onepiece"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="458dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="One Piece,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="135dp"
+        android:src="@drawable/search" />
+
+    <Button
+        android:id="@+id/naruto"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Naruto,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/demons"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Demon Slayer,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/chainsaw"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="609dp"
+        android:layout_marginBottom="73dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Chainsaw man,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/titan"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="529dp"
+        android:layout_marginBottom="73dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Attack On Titan, "
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/punchman"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="453dp"
+        android:layout_marginBottom="73dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="One Punch Man,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/deathnote"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="395dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Death Note,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/boruto"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="71dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Boruto,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/attackon"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="492dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Attack on Titan: The Final Season Part 2,"
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/dragonball"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="381dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Dragon ball Z Movie, ..."
+        android:textColor="#B7FFFFFF"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/site"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#FEDC94"
+        android:text="View Full Site"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="338dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

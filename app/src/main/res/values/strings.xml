@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="GetStarted">GET STARTED</string>
+    <string name="Login">LOGIN\n</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="logiN">LOGIN</string>
+    <string name="lOGIN">LOGIN</string>
+    <string name="Register">Register</string>
+    <string name="login">LOGIN</string>
+    <string name="signin">SIGNIN</string>
+</resources>
